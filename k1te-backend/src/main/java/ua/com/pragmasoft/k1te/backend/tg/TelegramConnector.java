@@ -68,12 +68,14 @@ public class TelegramConnector implements Connector, Closeable {
       """;
   private static final String ANONYMOUS_INFO =
       """
+  WORK!
       You don't have any channels at the moment.
       To join one, use /join channelName.
       For more information about possible actions, use /help.
       """;
   private static final String INFO =
       """
+      HELLO!
       Hello %s!
 
       You are a %s of the %s channel.
